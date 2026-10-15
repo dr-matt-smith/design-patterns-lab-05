@@ -6,6 +6,7 @@ TypeScript, Deno and Celbridge, and the Observer pattern.
 |---|---|
 | [`lab05_slides`](lab05_slides/) | The lab slides (a Celbridge `slides.story`, and `slides.pdf`) |
 | [`template_TS_terminal`](template_TS_terminal/) | A simple terminal TypeScript project to start from: a `Person` class, with tests |
+| [`template_TS_web`](template_TS_web/) | The same `Person` project as a web page: type your name, click **Greet** |
 | [`observer_pattern_TS`](observer_pattern_TS/) | The Observer pattern: notes and UML diagrams for three approaches, with example projects |
 
 In `observer_pattern_TS`:
