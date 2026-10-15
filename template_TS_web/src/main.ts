@@ -4,24 +4,12 @@
 import { Person } from "./Person.ts";
 
 const person1 = new Person();
+person1.setName("Matt");
 
-const form = document.querySelector<HTMLFormElement>("#greet-form");
-const nameInput = document.querySelector<HTMLInputElement>("#name");
-const output = document.querySelector<HTMLParagraphElement>("#output");
+const outputElement = document.querySelector<HTMLParagraphElement>("#output");
 
-// querySelector gives null if index.html has no matching element - so stop here, with a clear message.
-if (form === null || nameInput === null || output === null) {
-  throw new Error("index.html needs elements with the ids greet-form, name and output");
+if (outputElement === null) {
+  console.log("ERROR - could not find an html element with ID = 'output'");
+} else {
+    outputElement.textContent = "Nice to meet you, " + person1.getName() + "!";
 }
-
-output.textContent = "Type your name, then click Greet (or press Enter)";
-
-form.addEventListener("submit", (event) => {
-  event.preventDefault(); // stop the browser reloading the page
-  if (nameInput.value.trim() === "") {
-    output.textContent = "No name given";
-  } else {
-    person1.setName(nameInput.value);
-    output.textContent = `Nice to meet you, ${person1.getName()}!`;
-  }
-});
