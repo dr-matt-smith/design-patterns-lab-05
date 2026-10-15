@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="500" viewBox="0 0 720 500">
+<defs>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#000" stroke-width="1.2"/></marker>
+<marker id="tri" viewBox="0 0 16 16" refX="15" refY="8" markerWidth="16" markerHeight="16" markerUnits="userSpaceOnUse" orient="auto"><path d="M1,1 L15,8 L1,15 Z" fill="#fff" stroke="#000" stroke-width="1.2"/></marker>
+<marker id="filled" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M1,1 L11,6 L1,11 Z" fill="#000"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polyline points="80,54 80,445" fill="none" stroke="#000" stroke-width="1.2" stroke-dasharray="5,4"/>
+<rect x="10" y="20" width="140" height="34" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<text x="80" y="42" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000" font-weight="bold" xml:space="preserve">:Client</text>
+<polyline points="250,54 250,445" fill="none" stroke="#000" stroke-width="1.2" stroke-dasharray="5,4"/>
+<rect x="180" y="20" width="140" height="34" fill="#A6F78E" stroke="#000" stroke-width="1.2"/>
+<text x="250" y="42" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000" font-weight="bold" xml:space="preserve">s1: Subject1</text>
+<polyline points="420,54 420,445" fill="none" stroke="#000" stroke-width="1.2" stroke-dasharray="5,4"/>
+<rect x="350" y="20" width="140" height="34" fill="#A6F78E" stroke="#000" stroke-width="1.2"/>
+<text x="420" y="42" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000" font-weight="bold" xml:space="preserve">s2: Subject2</text>
+<polyline points="620,54 620,445" fill="none" stroke="#000" stroke-width="1.2" stroke-dasharray="5,4"/>
+<rect x="550" y="20" width="140" height="34" fill="#CCFFFF" stroke="#000" stroke-width="1.2"/>
+<text x="620" y="42" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000" font-weight="bold" xml:space="preserve">o1: Observer1</text>
+<polyline points="80,90 250,90" fill="none" stroke="#000" stroke-width="1.2" marker-end="url(#filled)"/>
+<rect x="119.0" y="71" width="92" height="17" fill="#ffffff"/>
+<text x="165.0" y="84" font-family="Helvetica, Arial, sans-serif" font-size="12.5" text-anchor="middle" fill="#000" xml:space="preserve">setState(10)</text>
+<polyline points="250,108 290,108 290,132 252,132" fill="none" stroke="#000" stroke-width="1.2" marker-end="url(#filled)"/>
+<text x="296" y="124" font-family="Helvetica, Arial, sans-serif" font-size="12.5" text-anchor="start" fill="#000" xml:space="preserve">notify()</text>
+<polyline points="250,170 620,170" fill="none" stroke="#000" stroke-width="1.2" marker-end="url(#filled)"/>
+<rect x="396.0" y="151" width="78" height="17" fill="#ffffff"/>
+<text x="435.0" y="164" font-family="Helvetica, Arial, sans-serif" font-size="12.5" text-anchor="middle" fill="#000" xml:space="preserve">update(s1)</text>
+<polyline points="620,200 250,200" fill="none" stroke="#000" stroke-width="1.2" marker-end="url(#filled)"/>
+<rect x="389.0" y="181" width="92" height="17" fill="#ffffff"/>
+<text x="435.0" y="194" font-family="Helvetica, Arial, sans-serif" font-size="12.5" text-anchor="middle" fill="#000" xml:space="preserve">s.getState()</text>
+<polyline points="250,226 620,226" fill="none" stroke="#000" stroke-width="1.2" stroke-dasharray="5,4" marker-end="url(#open)"/>
+<rect x="424.0" y="207" width="22" height="17" fill="#ffffff"/>
+<text x="435.0" y="220" font-family="Helvetica, Arial, sans-serif" font-size="12.5" text-anchor="middle" fill="#000" font-style="italic" xml:space="preserve">10</text>
+<polyline points="80,275 420,275" fill="none" stroke="#000" stroke-width="1.2" marker-end="url(#filled)"/>
+<rect x="204.0" y="256" width="92" height="17" fill="#ffffff"/>
+<text x="250.0" y="269" font-family="Helvetica, Arial, sans-serif" font-size="12.5" text-anchor="middle" fill="#000" xml:space="preserve">setState(99)</text>
+<polyline points="420,293 460,293 460,317 422,317" fill="none" stroke="#000" stroke-width="1.2" marker-end="url(#filled)"/>
+<text x="466" y="309" font-family="Helvetica, Arial, sans-serif" font-size="12.5" text-anchor="start" fill="#000" xml:space="preserve">notify()</text>
+<polyline points="420,355 620,355" fill="none" stroke="#000" stroke-width="1.2" marker-end="url(#filled)"/>
+<rect x="481.0" y="336" width="78" height="17" fill="#ffffff"/>
+<text x="520.0" y="349" font-family="Helvetica, Arial, sans-serif" font-size="12.5" text-anchor="middle" fill="#000" xml:space="preserve">update(s2)</text>
+<polyline points="620,385 420,385" fill="none" stroke="#000" stroke-width="1.2" marker-end="url(#filled)"/>
+<rect x="474.0" y="366" width="92" height="17" fill="#ffffff"/>
+<text x="520.0" y="379" font-family="Helvetica, Arial, sans-serif" font-size="12.5" text-anchor="middle" fill="#000" xml:space="preserve">s.getState()</text>
+<polyline points="420,411 620,411" fill="none" stroke="#000" stroke-width="1.2" stroke-dasharray="5,4" marker-end="url(#open)"/>
+<rect x="509.0" y="392" width="22" height="17" fill="#ffffff"/>
+<text x="520.0" y="405" font-family="Helvetica, Arial, sans-serif" font-size="12.5" text-anchor="middle" fill="#000" font-style="italic" xml:space="preserve">99</text>
+<text x="360" y="480" font-family="Helvetica, Arial, sans-serif" font-size="12.5" text-anchor="middle" fill="#000" font-style="italic" xml:space="preserve">The Subject passes itself in, so one Observer can tell its two Subjects apart</text>
+</svg>

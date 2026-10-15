@@ -1,0 +1,17 @@
+{
+  "tasks": {
+    "start": "deno run --allow-write=temperature_log.json src/main.ts",
+    "test": "deno test --allow-read --allow-write",
+    "check": "deno check src/ tests/",
+    "lint": "deno lint src/ tests/"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@^1"
+  },
+  "compilerOptions": {
+    "noImplicitOverride": true
+  },
+  "fmt": {
+    "lineWidth": 120
+  }
+}

@@ -1,0 +1,21 @@
+# A shell console. When it opens it runs the program: type temperatures, and see the Observer's messages.
+[session]
+type = "shell"
+
+[session.shell]
+script = "deno run src/main.ts"
+
+[[session.shortcut]]
+label = "run the program (src/main.ts)"
+icon = "bs-play"
+text = "deno run src/main.ts"
+
+[[session.shortcut]]
+label = "run the tests"
+icon = "bs-clipboard-check"
+text = "deno test"
+
+[[session.shortcut]]
+label = "lint: look for likely mistakes and bad habits"
+icon = "bs-search"
+text = "deno lint src/ tests/"

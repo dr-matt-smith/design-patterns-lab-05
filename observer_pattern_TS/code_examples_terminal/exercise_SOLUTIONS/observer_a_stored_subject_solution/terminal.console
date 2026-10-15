@@ -1,0 +1,21 @@
+# A shell console. When it opens it runs the program: type temperatures - the readings are also saved to temperature_log.json.
+[session]
+type = "shell"
+
+[session.shell]
+script = "deno run --allow-write=temperature_log.json src/main.ts"
+
+[[session.shortcut]]
+label = "run the program (src/main.ts)"
+icon = "bs-play"
+text = "deno run --allow-write=temperature_log.json src/main.ts"
+
+[[session.shortcut]]
+label = "run the tests"
+icon = "bs-clipboard-check"
+text = "deno test --allow-read --allow-write"
+
+[[session.shortcut]]
+label = "lint: look for likely mistakes and bad habits"
+icon = "bs-search"
+text = "deno lint src/ tests/"
