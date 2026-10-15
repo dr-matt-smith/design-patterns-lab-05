@@ -69,6 +69,12 @@
       "text": "# Test-driven development\n\nTry writing a test first\n- for `Person.set/getSurname()`\n\nget your RED errors\n\nthen write code to pass the test ...\n\n```mermaid\nflowchart LR\n  R([\"<b>RED</b><br/>write a test for what you<br/>want next - watch it fail\"]) --> G([\"<b>GREEN</b><br/>write just enough code<br/>to make every test pass\"]) --> F([\"<b>REFACTOR</b><br/>tidy the code up - the tests<br/>check you broke nothing\"])\n  F -- \"round again, one small step at a time\" --> R\n  classDef red fill:#e63946,stroke:#e63946,color:#fff\n  classDef green fill:#2a9d8f,stroke:#2a9d8f,color:#fff\n  classDef blue fill:#457b9d,stroke:#457b9d,color:#fff\n  class R red\n  class G green\n  class F blue\n```\n\n"
     },
     {
+      "name": "log object properties",
+      "x": 200,
+      "y": 280,
+      "text": "![bg fit](./images/logo_bg.png)\n\n# `console.log(person1)`\n\nthis does **not** call `.toString()` on the object\n\nit dumps out the object properties as JSON:\n\n```typescript\n// add after greeting code\nconsole.log(person1);\n```\n\n```bash\n% deno run src/main.ts\nWhat is your name? fred\nNice to meet you, fred!\n\nPerson { name: \"fred\" }\n```\n\nhandy for debugging OO code ..."
+    },
+    {
       "name": "Ex5-5: Hello World - web",
       "x": 720,
       "y": 140,

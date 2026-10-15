@@ -8,8 +8,8 @@ const person1 = new Person();
 
 const nameInput = prompt("What is your name?");
 if (nameInput === null) {
-  console.log("No name given");
+    console.log("No name given");
 } else {
-  person1.setName(nameInput);
-  console.log(`Nice to meet you, ${person1.getName()}!`);
+    person1.setName(nameInput);
+    console.log(`Nice to meet you, ${person1.getName()}!`);
 }
